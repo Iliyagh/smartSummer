@@ -1,0 +1,123 @@
+// ======Main Options=======
+/* -----Color------- */
+$primaryColor: #E32013;  
+$secondaryColor: #FFD04A; 
+$tertiaryColor: #E8E8E8;	
+$fourthColor: #252829; 
+
+$black: #000;
+$white: #fff;
+$buttonBlue: #00AEEF;
+$placeholderColor: #222222; 
+$orange: #ff9600;
+$blueTab: #2FA8E8;
+$backgroundSmart: #F1F1F1;
+$starColor: #E7711B;
+$subtitleColor: #999999;
+$borderColor: #eeeeee;
+$textReviews: #878787;
+$purple: #7B1FA2;
+$iconColor: #8D6E63;
+$footerBackground: #1f1f1f;
+
+
+/* -----Fonts-----*/
+$pageFontSize: 14px;
+$mainFont: "Arial";
+$mainFontColor: #1B1E1F;
+$secondaryFont: "Arial";
+
+$titleFont: $mainFont;
+$titleFontSize: 2rem;
+$titleFontSizeLaptop: 2rem;
+$sectionTitleFontSize: 1.5rem;
+$sectionTitleFontSizeLaptop: 1.5rem;
+
+$secondaryFontColor: $white;
+$descriptionTextColor: #8D8E8F;
+
+
+/* ======Components Options======= */
+/* ------Color---------- */
+$mainBackgroundColor: $tertiaryColor;
+
+$headerColor: $primaryColor;
+$headerFontColor: $white;
+
+$footerColor: $fourthColor;
+$footerFontColor: $secondaryFontColor;
+
+$mobileMenuColor: $primaryColor;
+
+$formElementsBorderColor: $secondaryColor;
+$formElementsFocusBorderColor: $primaryColor;
+
+$linksColor: $fourthColor;
+
+$darkOverlayColor: rgb(0,0,0);
+
+
+/* ------Fonts----------*/
+// $h1FontSize: 40px;
+// $h2FontSize: 24px;
+// $h3FontSize: 20px;
+$smaller: 12px;
+$normal: 14px;
+$larger: 16px;
+$large: 18px;
+$big: 24px;
+
+$descriptionLineHeight: 1.35rem;
+$descriptionFontSize: 0.9rem;
+
+
+/* ------Sizes----------*/
+$headerHeight: 85px;
+$pageMaxWidth: 1920px;
+
+$formElementsHeight: 40px; 
+
+$standardButtonHeight: 40px;
+
+
+/* ------Margins/Paddings------ */
+
+// ---Optional (page-grid)-----
+$containerPadding: 15px;
+$containerPaddingDesktop: 15px;
+
+$containerWidth: 1815px;
+$containerWidthTablet: 570px;
+$containerWidthLaptop: 760px;
+$containerWidthDesktop: 905px;
+
+$sectionMarginTopMobile: 20px;
+$sectionMarginTopTablet: 25px;
+$sectionMarginTopLaptop: 35px;
+$sectionMarginTopDesktop: 40px;
+
+$articleMarginMobile: 10px;
+$articleMarginTablet: 10px;
+$articleMarginLaptop: 16px;
+$articleMarginDesktop: 16px;
+
+// ---Optional (collapse menu)-----
+$collapseBefore: 991px;  // page width when menu should collapse
+
+// ---Optional (form-grid)-----
+$formTitleFontSize: 1.25rem;
+$labelFontSize: 13px;
+
+/* ------Z-index-------- */
+$zMobileMenu: 1000;
+$zMobileMenuButton: $zMobileMenu;
+
+$pageOverlayZIndex: $zMobileMenu - 50;
+$darkOverlayZIndex: $pageOverlayZIndex - 10;
+
+$zPopup: $zMobileMenu + 200;
+$zPopupDarkOverlay: $zPopup - 50;
+
+
+
+

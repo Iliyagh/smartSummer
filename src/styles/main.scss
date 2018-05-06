@@ -1,0 +1,23 @@
+@import "optional/customReset";
+@import "optional/bottomFooter"; //set page height to 100% and moves mainFooter to bottom.
+
+/* ----Variables--- */
+@import "variables";
+
+@import "fonts";
+
+// -----Frames--------
+@import "frames/frames_main.scss";
+
+// ----Common-----
+@import "app/common/common.scss";
+@import "app/common/common-blocks";
+
+
+//------Partials-----
+@import "app/partials/header.scss";
+@import "app/partials/footer.scss";
+
+//-----App-----
+@import "app/homePage.scss";
+@import url(netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
